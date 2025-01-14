@@ -99,6 +99,7 @@ export class AppComponent {
         })
     }
 
+    console.log(isSelfDevelop)
     if (isSelfDevelop) {
       getContentes().then(() => {
         setTimeout(() => {
